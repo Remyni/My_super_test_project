@@ -22,6 +22,7 @@ def array_42(array)
         return true
     else
         return false
-    end
+end
+def magic_array(array)
 end
 

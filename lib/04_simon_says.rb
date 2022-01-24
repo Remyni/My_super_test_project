@@ -7,7 +7,7 @@ def shout ( string)
 end
 
 def repeat (string , number= 2)
-    return [string].cycle(number).to_a
+    return number.times.collect { string }.join(' ')
 end
 
 def start_of_word (string, number)
@@ -16,6 +16,6 @@ end
 def first_word (string)
     return string.split.first
 end
-def titleize ( string)
+def titleize (string)
     return string.split.map(&:capitalize).join(' ')
 end
