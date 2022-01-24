@@ -15,6 +15,7 @@ end
 
 def reverse_upcase_noLTA
     
+    
 end
 
 def array_42(array)
@@ -23,6 +24,7 @@ def array_42(array)
     else
         return false
 end
-def magic_array(array)
+  def magic_array(array)
+  end
 end
 
